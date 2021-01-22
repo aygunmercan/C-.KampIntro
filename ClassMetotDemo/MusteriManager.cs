@@ -8,7 +8,7 @@ namespace ClassMetotDemo
     {
         public void Ekle(Musteri musteri)
         {
-            Console.WriteLine("Id:"+musteri.Id+",Ad:"+musteri.Ad+",Soyad:"+musteri.Soyad+",Yaş:"+musteri.Yas +",Maaş:"+musteri.Maas+ " bilgilerini içeren müşteri veri tabanına eklendi.\n");
+            Console.WriteLine("Id:" + musteri.Id + ",Ad:" + musteri.Ad + ",Soyad:" + musteri.Soyad + ",Yaş:" + musteri.Yas + ",Maaş:" + musteri.Maas + " bilgilerini içeren müşteri veri tabanına eklendi.\n");
 
         }
 
@@ -27,4 +27,3 @@ namespace ClassMetotDemo
 
     }
 }
-

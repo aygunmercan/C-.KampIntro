@@ -38,7 +38,7 @@ namespace ClassMetotDemo
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2, musteri3 };
             foreach (var item in musteriler)
             {
-                Console.WriteLine("////////////"+count+ ". müşteriye ait bilgiler/////////");
+                Console.WriteLine("////////////" + count + ". müşteriye ait bilgiler/////////");
                 Console.WriteLine("Id: " + item.Id + Environment.NewLine + "Ad Soyad: " + item.Ad + " " + item.Soyad + Environment.NewLine + "Yaş: " + item.Yas + Environment.NewLine + "Maaş: " + item.Maas + Environment.NewLine);
                 count += 1;
 
