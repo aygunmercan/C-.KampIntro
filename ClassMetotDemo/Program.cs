@@ -22,6 +22,7 @@ namespace ClassMetotDemo
             musteri2.Maas = 4500;
 
 
+
             Musteri musteri3 = new Musteri();
             musteri3.Id = new Random().Next(1, 500);
             musteri3.Ad = "Sema";
