@@ -4,7 +4,7 @@ namespace OOP3
 {
     class FileLoggerService : ILoggerService
     {
-        //bu süreç dosyaya loglama yapacak
+        //bu süreç dosyaya loglama yapacak şekilde tasarlandı.
         public void Log()
         {
          

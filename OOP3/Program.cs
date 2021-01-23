@@ -17,7 +17,6 @@ namespace OOP3
             ILoggerService fileLoggerService = new FileLoggerService();
 
 
-
             BasvuruManager basvuruManager = new BasvuruManager();   //interfaca sayesinde başvuranın seçimini çalışan da seçer ve hesaplatır.
             basvuruManager.BasvuruYap(tasitKrediManager, new List<ILoggerService> { new DatabaseLoggerService(), new FileLoggerService() });                  //databaseLoggerService); 
             //ya da şöyle yazabiliriz:basvuruManager.BasvuruYap(tasitKrediManager,new DatabaseLogger Service());
